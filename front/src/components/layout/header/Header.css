@@ -1,0 +1,25 @@
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+
+.header_navbar_wrapper {
+  width: 40%;
+  border: 1px solid red;
+}
+
+.header_logo_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  border: 1px solid rgb(76, 0, 255);
+}
+
+.header_usersection_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  border: 1px solid rgb(229, 255, 0);
+}

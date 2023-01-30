@@ -1,0 +1,148 @@
+{
+  "customers": [
+    {
+      "name": "Elvio Cepeda",
+      "email": "cepedaelvio@gmail.com",
+      "phone": "2314576058",
+      "uuid": "c9b1e38e-c187-445a-96df-4818442d274c",
+      "password": "",
+      "location": "",
+      "id": 1
+    }
+  ],
+  "drivers": [
+    {
+      "id": 0,
+      "uuid": "a7f170e0-58b6-46bc-8aa0-2e379829a5b2",
+      "name": "Conductor",
+      "phone": "4534622532",
+      "email": "user5@user5.com",
+      "password": "123123123",
+      "location": ""
+    }
+  ],
+  "admins": [
+    {
+      "id": 0,
+      "uuid": "a7f170e0-58b6-46bc-8aa0-2e379829a5b2",
+      "name": "Administrador",
+      "phone": "4534622532",
+      "email": "user5@user5.com",
+      "password": "123123123"
+    },
+    {
+      "name": "Carlos",
+      "email": "sdn@mm.com",
+      "phone": "5675675",
+      "uuid": "2cfcb2d8-1031-464a-b65b-a12cfbc5fc19",
+      "password": "",
+      "location": "",
+      "id": 1
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "Example type 3",
+      "identifier": "78675",
+      "uuid": "d150f474-a897-4d11-9190-184afa5f50e5",
+      "id": 4
+    },
+    {
+      "type": "Example type 2",
+      "identifier": "2342",
+      "uuid": "9d733ed9-1b32-4cc4-986e-40c2ffcd3480",
+      "id": 5
+    },
+    {
+      "type": "Example type 4",
+      "identifier": "1234",
+      "uuid": "de02e723-3ee8-4c7a-9c59-0820d0a9c5a7",
+      "id": 6
+    },
+    {
+      "type": "Example type 1",
+      "identifier": "111111",
+      "uuid": "0741b01d-9f2a-4799-9f31-3c29ad2b7d98",
+      "id": 7
+    },
+    {
+      "type": "Example type 3",
+      "identifier": "333333",
+      "uuid": "4d94a03c-50cf-482b-b11b-3f7c7da5da94",
+      "id": 8
+    }
+  ],
+  "vehicleTypes": [
+    {
+      "name": "Example type 1",
+      "id": "0"
+    },
+    {
+      "name": "Example type 2",
+      "id": "1"
+    },
+    {
+      "name": "Example type 3",
+      "id": "2"
+    },
+    {
+      "name": "Example type 4",
+      "id": "3"
+    },
+    {
+      "name": "Example type 5",
+      "id": "4"
+    },
+    {
+      "name": "Example type 6",
+      "id": "5"
+    }
+  ],
+  "baseCosts": [
+    {
+      "serviceType": "Example serviceType",
+      "cost": "123",
+      "aditional": "345",
+      "uuid": "47699ebf-5900-4ae6-9f5a-16c34efe9dff",
+      "id": 0
+    }
+  ],
+  "serviceTypes": [
+    {
+      "name": "Example type 1",
+      "id": "0"
+    },
+    {
+      "name": "Example type 2",
+      "id": "1"
+    },
+    {
+      "name": "Example type 3",
+      "id": "2"
+    },
+    {
+      "name": "Example type 4",
+      "id": "3"
+    },
+    {
+      "name": "Example type 5",
+      "id": "4"
+    },
+    {
+      "name": "Example type 6",
+      "id": "5"
+    }
+  ],
+  "requests": [
+    {
+      "id": 0,
+      "uuid": "a7f170e0-58b6-46bc-8aa0-2e379829a5b2",
+      "customer": "",
+      "service": "",
+      "driver": "",
+      "vehicle": "",
+      "admin": "",
+      "status": "pending"
+    }
+  ]
+}

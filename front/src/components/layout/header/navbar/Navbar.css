@@ -1,0 +1,13 @@
+.navbar_wrapper {
+  border: 1px solid red;
+  padding: 0 1rem;
+}
+
+.navbar_wrapper ul {
+  display: flex;
+}
+
+.navbar_wrapper li {
+  margin-right: 1rem;
+  list-style: none;
+}
